@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col>
-        <v-card href="/sub">
+        <v-card to="/sub">
           <v-card-title>Sub Page</v-card-title>
           <v-divider />
           <v-card-text>
