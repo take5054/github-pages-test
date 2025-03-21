@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app>
-      <v-toolbar-title>github-pages-test</v-toolbar-title>
-    </v-app-bar>
+    <Appbar />
     <v-main>
       <router-view />
     </v-main>
@@ -23,5 +21,5 @@
 </template>
 
 <script lang="ts" setup>
-  //
+import Appbar from './components/Appbar.vue'
 </script>
